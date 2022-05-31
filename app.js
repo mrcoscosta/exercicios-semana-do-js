@@ -22,7 +22,12 @@ console.log(Imparesrandombers);
 */
 
 const crazyNumbers = [937, 5, 395, 402, 501, 333, 502, 781, 3, 691]
-
+const Menores = crazyNumbers.filter(function (item) {
+  if (item < 501) {
+    return item;
+  }
+});
+console.log(Menores);
 /*
   03
 
@@ -32,7 +37,12 @@ const crazyNumbers = [937, 5, 395, 402, 501, 333, 502, 781, 3, 691]
   Dica: pesquise por exponentiation operator (**).
 */
 
-const numbers = [5, 7, 3]
+const numbers = [5, 7, 3
+   
+const NumbersElevaddo = numbers.map(function (item) {
+  return item * item;
+});
+console.log(NumbersElevaddo);
 
 /*
   04
